@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f732b7fd2386bfcaee9506ed53e760, type: 3}
+  m_Name: DefaultCar
+  m_EditorClassIdentifier: Qerkinaj.GameDev::Qerkinaj.GameDev.Vehicle.CarSettings
+  <Body>k__BackingField:
+    <CenterOfMass>k__BackingField: {x: 0, y: 0.4227555, z: 0}
+    <InertiaScale>k__BackingField: 0.85
+    <MaxSteerAngle>k__BackingField: 38
+    <HighSpeedSteerAngle>k__BackingField: 10
+    <SteerSpeed>k__BackingField: 8
+  <Suspension>k__BackingField:
+    <WheelRadius>k__BackingField: 0.48230487
+    <GroundLayers>k__BackingField:
+      serializedVersion: 2
+      m_Bits: 4294967291
+    <SuspensionLength>k__BackingField: 0.48230487
+    <SpringFrequency>k__BackingField: 1.15
+    <Damping>k__BackingField: 0.38
+    <ReboundDamping>k__BackingField: 2
+    <AntiRoll>k__BackingField: 0.4
+  <Engine>k__BackingField:
+    <MaxSpeedKmh>k__BackingField: 150
+    <MaxReverseSpeedKmh>k__BackingField: 35
+    <LaunchAcceleration>k__BackingField: 9.5
+    <GearTopSpeedsKmh>k__BackingField:
+    - 55
+    - 85
+    - 110
+    - 132
+    - 155
+    <TorqueCurve>k__BackingField:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.65
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 0.95
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.75
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0.82
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    <IdleRpm>k__BackingField: 900
+    <RedlineRpm>k__BackingField: 7200
+    <ShiftTime>k__BackingField: 0.18
+    <ThrottleRevs>k__BackingField: 450
+    <RevUpRate>k__BackingField: 6500
+    <RevDownRate>k__BackingField: 4500
+    <ClutchSpeed>k__BackingField: 3
+    <EngineBraking>k__BackingField: 1.2
+  <Tires>k__BackingField:
+    <RearDriveBias>k__BackingField: 0.55
+    <BrakeDeceleration>k__BackingField: 12
+    <FrontBrakeBias>k__BackingField: 0.6
+    <HandbrakeDeceleration>k__BackingField: 9
+    <TractionControl>k__BackingField: 1
+    <Grip>k__BackingField: 1.55
+    <LateralGripBySlip>k__BackingField:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 6
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 20
+        value: 0.95
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 60
+        value: 0.85
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 90
+        value: 0.8
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    <HandbrakeRearGrip>k__BackingField: 0.4
+    <ForceHeight>k__BackingField: 0.3
+    <RollingResistance>k__BackingField: 0.015
+    <GrassGrip>k__BackingField: 0.75
+    <GrassResistance>k__BackingField: 0.12
+    <GrassDrag>k__BackingField: 0.12
+  <Assists>k__BackingField:
+    <StabilityAssist>k__BackingField: 0.65
+    <TractionAssist>k__BackingField: 0.75
+    <TractionAssistRate>k__BackingField: 4
+    <MomentumKeep>k__BackingField: 0.5
+    <DriftRecoveryTime>k__BackingField: 0.6
+    <HandbrakeTurnBoost>k__BackingField: 2
+    <TurnInAssist>k__BackingField: 0.8
+    <AirControl>k__BackingField: 2.5
+    <MaxBodyRoll>k__BackingField: 12
+    <RolloverProtection>k__BackingField: 0.6
+    <AutoFlipDelay>k__BackingField: 1.5
+    <AirGravity>k__BackingField: 2.2
+    <DragCoefficient>k__BackingField: 0.4
+    <Downforce>k__BackingField: 1.2
